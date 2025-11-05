@@ -75,3 +75,19 @@ footer {
   padding-top: 10px;
   border-top: 2px solid teal;
 }
+/* Gotham Moody Image Style (simple class) */
+.gotham-img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid teal;
+  border-radius: 5px;
+
+  /* simple Gotham shadow */
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.25);
+}
+
+/* Hover effect (simple shadow change) */
+.gotham-img:hover {
+  box-shadow: 0px 0px 25px rgba(0, 255, 255, 0.45);
+}
