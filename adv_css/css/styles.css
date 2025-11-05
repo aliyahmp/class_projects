@@ -75,17 +75,18 @@ footer {
   padding-top: 10px;
   border-top: 2px solid teal;
 }
-/* Gotham dark image look (simple, allowed in class) */
-.gotham-img {
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-  border: 2px solid teal;
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,255,255,0.25);
+/* Movie Page Image Row */
+.movie-gallery {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;               
+  margin-bottom: 15px;    
 }
 
-.gotham-img:hover {
-  box-shadow: 0 0 25px rgba(0,255,255,0.45);
+.movie-gallery img {
+  width: 45%;              
+  border: 2px solid teal;
+  border-radius: 5px;
 }
+
 
