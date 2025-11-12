@@ -1,0 +1,154 @@
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  background-color: #111;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+header {
+  text-align: center;
+  background-color: #000;
+  color: teal;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: #222;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+nav ul li a {
+  color: teal;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+}
+
+nav ul li a:hover {
+  background-color: teal;
+  color: black;
+  border-radius: 4px;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+section {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.feature-img,
+.about-img {
+  width: 60%;
+  display: block;
+  margin: 0 auto 15px auto;
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+
+.movie-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-gallery img {
+  width: 45%;
+  border-radius: 5px;
+  border: 2px solid teal;
+}
+
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-grid img {
+  width: 30%;
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+
+footer, p {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .movie-gallery img,
+  .gallery-grid img {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  .movie-gallery,
+  .gallery-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-gallery img,
+  .gallery-grid img {
+    width: 80%;
+  }
+
+  aside {
+    text-align: center;
+  }
+}
+
+
