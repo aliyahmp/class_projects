@@ -150,5 +150,25 @@ footer, p {
     text-align: center;
   }
 }
+.hero-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-card {
+  background-color: #1a1a1a;
+  border: 2px solid teal;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-card:hover {
+  background-color: teal;
+  color: black;
+}
 
 
