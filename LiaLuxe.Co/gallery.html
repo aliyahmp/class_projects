@@ -1,0 +1,97 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lia Luxe Co. | PAGE TITLE HERE</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css">
+
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lia Luxe Co. | Gallery</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Lia Luxe Co.</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="tips.html">Skin Care Tips &amp; Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Gallery</h1>
+        <p>Real results from real clients in Chattanooga, Tennessee.</p>
+      </div>
+    </section>
+
+    <section class="section-light">
+      <div class="container">
+        <div class="gallery-grid">
+          <figure>
+            <img src="images/facial1.jpg" alt="Hydrated glowing skin after facial">
+            <figcaption>Hydrating facial result</figcaption>
+          </figure>
+          <figure>
+            <img src="images/facial2.jpg" alt="Clearer skin after acne-focused treatment">
+            <figcaption>Acne care progress</figcaption>
+          </figure>
+          <figure>
+            <img src="images/lashes1.jpg" alt="Soft classic lash extensions">
+            <figcaption>Natural classic lash set</figcaption>
+          </figure>
+          <figure>
+            <img src="images/brows1.jpg" alt="Soft brow shaping result">
+            <figcaption>Soft, defined brow shaping</figcaption>
+          </figure>
+          <figure>
+            <img src="images/facial3.jpg" alt="Client relaxing in treatment room">
+            <figcaption>Calm, cozy treatment room</figcaption>
+          </figure>
+          <figure>
+            <img src="images/makeup1.jpg" alt="Soft glam makeup look">
+            <figcaption>Soft glam for special events</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Lia Luxe Co. · Chattanooga, Tennessee</p>
+      <p class="footer-small">Contact: 423-991-0055 · aliyahmp1@gmail.com</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

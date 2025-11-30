@@ -1,0 +1,143 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lia Luxe Co. | PAGE TITLE HERE</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles/style.css">
+
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lia Luxe Co. | Skin Care Tips & Contact</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Lia Luxe Co.</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="tips.html" class="active">Skin Care Tips &amp; Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Skin Care Tips &amp; Contact</h1>
+        <p>Simple, realistic tips from Aliyah plus an easy way to reach out and book.</p>
+      </div>
+    </section>
+
+    <section class="section-light">
+      <div class="container two-column">
+        <div>
+          <h2>About Aliyah</h2>
+          <p>
+            I’m <strong>Aliyah Phothilat</strong>, a licensed esthetician based in
+            <strong>Chattanooga, Tennessee</strong>. I started Lia Luxe Co. for people who
+            want healthy skin and soft glam without feeling overwhelmed or judged.
+          </p>
+          <p>
+            My approach is gentle, honest, and realistic. I don’t believe in ten-step routines
+            you’ll never keep up with. I like to keep things simple, calm, and focused on what
+            actually works for your skin.
+          </p>
+
+          <h2>Quick Skin Care Tips</h2>
+          <ul class="info-list">
+            <li><strong>1. Be gentle with cleansing.</strong> Avoid harsh scrubs every day. A soft cleanser and lukewarm water are enough for most skin.</li>
+            <li><strong>2. Moisturize, even if you’re oily.</strong> Skipping moisturizer can make your skin feel tight and reactive. Choose a lightweight option if you’re oily or acne-prone.</li>
+            <li><strong>3. Don’t pick at breakouts.</strong> It’s tempting, but picking can lead to dark marks and more irritation. Let extractions happen in the treatment room instead.</li>
+            <li><strong>4. Sunscreen is non-negotiable.</strong> Daily SPF helps protect your results and prevents dark spots and early fine lines.</li>
+            <li><strong>5. Consistency beats perfection.</strong> A simple routine you actually do will always beat a complicated one you quit after a week.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Contact &amp; Booking</h2>
+          <p><strong>Text:</strong> 423-991-0055</p>
+          <p><strong>Email:</strong> <a href="mailto:aliyahmp1@gmail.com">aliyahmp1@gmail.com</a></p>
+          <p><strong>Location:</strong> Chattanooga, Tennessee</p>
+
+          <form class="contact-form">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Your name">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="you@example.com">
+
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option>Custom Facial</option>
+              <option>Acne Care Facial</option>
+              <option>Hydration Reset</option>
+              <option>Lash Extensions</option>
+              <option>Lash Lift &amp; Tint</option>
+              <option>Brow Shape &amp; Tint</option>
+              <option>Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Share your skin goals or preferred dates..."></textarea>
+
+            <button type="submit" class="btn primary-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark">
+      <div class="container">
+        <h2>Short Skin Care Video</h2>
+        <p>Here’s a quick skin care video to go along with your routine.</p>
+
+        <div class="video-wrapper">
+        
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+            title="Skin Care Tips Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+   
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Lia Luxe Co. · Chattanooga, Tennessee</p>
+      <p class="footer-small">Text to book: 423-991-0055 · Email: aliyahmp1@gmail.com</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
