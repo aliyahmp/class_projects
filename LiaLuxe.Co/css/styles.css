@@ -192,9 +192,7 @@ h2 {
   transform: scale(1.04);
 }
 
-/* -------------------------------------
-   REVIEWS PAGE
--------------------------------------- */
+
 .review-card {
   background: white;
   padding: 25px;
@@ -216,7 +214,7 @@ h2 {
 
 .video-wrapper iframe {
   width: 100%;
-  aspect-ratio: 9 / 16; /* vertical short */
+  aspect-ratio: 9 / 16; 
   border: none;
   display: block;
 }
@@ -232,4 +230,50 @@ h2 {
 .video-page-section {
   padding: 60px 0;
   text-align: center;
+}
+
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 25px;
+  border: 2px solid #f4b6d4; 
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.service-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: #cc2d8f; 
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.service-price {
+  margin-top: 12px;
+  display: inline-block;
+  font-weight: 600;
+  color: #cc2d8f;
+  border: 1px solid #cc2d8f;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: #ffe7f3;
 }
